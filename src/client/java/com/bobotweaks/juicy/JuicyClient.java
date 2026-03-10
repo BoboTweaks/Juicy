@@ -1,17 +1,17 @@
-package com.bobotweaks.sas;
+package com.bobotweaks.juicy;
 
-import com.bobotweaks.sas.config.GeneralConfig;
-import com.bobotweaks.sas.config.SoundsConfig;
-import com.bobotweaks.sas.event.ModEvents;
-import com.bobotweaks.sas.sound.ModSounds;
+import com.bobotweaks.juicy.config.GeneralConfig;
+import com.bobotweaks.juicy.config.SoundsConfig;
+import com.bobotweaks.juicy.event.ModEvents;
+import com.bobotweaks.juicy.sound.ModSounds;
 
 import net.fabricmc.api.ClientModInitializer;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-public class SoundsAndStuffClient implements ClientModInitializer {
-	public static final String MOD_ID = "sas";
+public class JuicyClient implements ClientModInitializer {
+	public static final String MOD_ID = "juicy";
 	public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
 	
 	public static GeneralConfig GENERAL_CONFIG;

@@ -1,8 +1,8 @@
 {
 	"schemaVersion": 1,
-	"id": "sas",
+	"id": "juicy",
 	"version": "${version}",
-	"name": "Sounds & Stuff",
+	"name": "Juicy",
 	"description": "",
 	"authors": [
 		"Bobotweaks"
@@ -12,16 +12,16 @@
 		"sources": "https://github.com/bobotweaks/sounds-and-stuff-fabric-1.20.1"
 	},
 	"license": "MIT License",
-	"icon": "assets/sas/icon.png",
+	"icon": "assets/juicy/icon.png",
 	"environment": "client",
 	"entrypoints": {
 		"client": [
-			"com.bobotweaks.sas.SoundsAndStuffClient"
+			"com.bobotweaks.juicy.JuicyClient"
 		]
 	},
 	"mixins": [
 		{
-			"config": "sas.client.mixins.json",
+			"config": "juicy.client.mixins.json",
 			"environment": "client"
 		}
 	],

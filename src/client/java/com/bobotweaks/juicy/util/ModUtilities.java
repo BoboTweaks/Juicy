@@ -1,6 +1,6 @@
-package com.bobotweaks.sas.util;
+package com.bobotweaks.juicy.util;
 
-import com.bobotweaks.sas.SoundsAndStuffClient;
+import com.bobotweaks.juicy.JuicyClient;
 
 import net.minecraft.client.MinecraftClient;
 import net.minecraft.sound.SoundEvent;
@@ -26,7 +26,7 @@ public class ModUtilities {
      * Consolidated check for global, category, and specific sound toggles.
      */
     public static boolean shouldPlay(boolean specificToggle) {
-        return SoundsAndStuffClient.GENERAL_CONFIG.inventorySounds && specificToggle;
+        return JuicyClient.GENERAL_CONFIG.inventorySounds && specificToggle;
     }
 
     /**
@@ -37,7 +37,7 @@ public class ModUtilities {
         if (client.player == null || client.world == null) return;
         
         if (shouldPlay(specificToggle)) {
-            float volume = randomRange(client.world.random, minVol, maxVol) * SoundsAndStuffClient.GENERAL_CONFIG.masterVolume;
+            float volume = randomRange(client.world.random, minVol, maxVol) * JuicyClient.GENERAL_CONFIG.masterVolume;
             float pitch = randomRange(client.world.random, minPitch, maxPitch);
             client.player.playSound(sound, volume, pitch);
         }

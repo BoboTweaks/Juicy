@@ -1,8 +1,8 @@
-package com.bobotweaks.sas.mixin.client;
+package com.bobotweaks.juicy.mixin.client;
 
-import com.bobotweaks.sas.SoundsAndStuffClient;
-import com.bobotweaks.sas.sound.ModSounds;
-import com.bobotweaks.sas.util.ModUtilities;
+import com.bobotweaks.juicy.JuicyClient;
+import com.bobotweaks.juicy.sound.ModSounds;
+import com.bobotweaks.juicy.util.ModUtilities;
 
 import net.minecraft.client.MinecraftClient;
 import net.minecraft.client.network.ClientPlayNetworkHandler;
@@ -23,7 +23,7 @@ public class ItemPickupMixin {
         if (client.world == null || client.player == null) return;
 
         if (packet.getCollectorEntityId() == client.player.getId()) {
-            ModUtilities.playConfigSound(ModSounds.ITEM_PICKUP, 0.4f, 0.8f, 0.8f, 1.2f, SoundsAndStuffClient.SOUNDS_CONFIG.itemPickup);
+            ModUtilities.playConfigSound(ModSounds.ITEM_PICKUP, 0.4f, 0.8f, 0.8f, 1.2f, JuicyClient.SOUNDS_CONFIG.itemPickup);
         }
     }
 }

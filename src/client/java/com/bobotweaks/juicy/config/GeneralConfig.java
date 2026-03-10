@@ -1,6 +1,6 @@
-package com.bobotweaks.sas.config;
+package com.bobotweaks.juicy.config;
 
-import com.bobotweaks.sas.SoundsAndStuffClient;
+import com.bobotweaks.juicy.JuicyClient;
 
 import net.fabricmc.loader.api.FabricLoader;
 
@@ -38,7 +38,7 @@ public class GeneralConfig {
                     }
                 }
             } catch (Exception e) {
-                SoundsAndStuffClient.LOGGER.error("Failed to load general config, using defaults", e);
+                JuicyClient.LOGGER.error("Failed to load general config, using defaults", e);
             }
         } else {
             config.save();
@@ -52,7 +52,7 @@ public class GeneralConfig {
             writer.println("inventorySounds=" + inventorySounds);
             writer.println("itemSwitchSounds=" + itemSwitchSounds);
         } catch (IOException e) {
-            SoundsAndStuffClient.LOGGER.error("Failed to save general config", e);
+            JuicyClient.LOGGER.error("Failed to save general config", e);
         }
     }
 }

@@ -1,0 +1,40 @@
+{
+  "item_pickup": {
+    "category": "player",
+    "sounds": [
+      "juicy:item_pickup/item_pickup_general"
+    ]
+  },
+  "switch_general": {
+    "category": "player",
+    "sounds": [
+      "juicy:item_switch/item_switch_general"
+    ]
+  },
+  "switch_fire": {
+    "category": "player",
+    "sounds": [
+      "juicy:item_switch/fire_switch"
+    ]
+  },
+  "switch_sword": {
+    "category": "player",
+    "sounds": [
+      "juicy:item_switch/sword_switch_general"
+    ]
+  },
+  "sword_swing": {
+    "category": "player",
+    "sounds": [
+      "juicy:item_use/sword_swing_01",
+      "juicy:item_use/sword_swing_02"
+    ]
+  },
+  "equip_leather": {
+    "category": "player",
+    "sounds": [
+      "juicy:equipping/leather_equipping_01",
+      "juicy:equipping/leather_equipping_02"
+    ]
+  }
+}
