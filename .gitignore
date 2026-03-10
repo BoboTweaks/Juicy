@@ -5,7 +5,6 @@ build/
 out/
 classes/
 documents/
-%CD%.gradle-user/
 
 # eclipse
 

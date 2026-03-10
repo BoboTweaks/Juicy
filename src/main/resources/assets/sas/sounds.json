@@ -1,0 +1,8 @@
+{
+  "item_pickup": {
+    "category": "player",
+    "sounds": [
+      "sas:item_pickup/item_pickup_general"
+    ]
+  }
+}

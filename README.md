@@ -1,13 +1,20 @@
 # Sounds & Stuff
-A mod for enhanced Minecraft sounds.
+A Fabric Client Mod for enhanced Minecraft sounds.
+
+> minecraft_version=1.20.1
+> yarn_mappings=1.20.1+build.10
 
 > This mod is a work in progress.
 
 ## Roadmap
 > Still working on the roadmap, so expect some changes.
-### v 0.0.5 - Configs [In Progress]
-- [ ] Config for general sounds
-- [ ] Config for specific items
+### v 0.0.5 - Enviorment Setup [In Progress]
+- [x] ModSounds.java
+- [x] GeneralConfig.java
+- [x] SoundsConfig.java
+- [ ] ModEvents.java
+- [ ] ItemPickupMixin.java
+
 ### v 0.1.0 - Basic Inventory Sounds
 
 - [ ] Item pickup
