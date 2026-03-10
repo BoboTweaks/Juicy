@@ -12,8 +12,8 @@ A Fabric Client Mod for enhanced Minecraft sounds.
 - [x] ModSounds.java
 - [x] GeneralConfig.java
 - [x] SoundsConfig.java
-- [ ] ModEvents.java
-- [ ] ItemPickupMixin.java
+- [x] ModEvents.java
+- [x] ItemPickupMixin.java
 
 ### v 0.1.0 - Basic Inventory Sounds
 
