@@ -8,16 +8,16 @@ A Fabric Client Mod for enhanced Minecraft sounds.
 
 ## Roadmap
 > Still working on the roadmap, so expect some changes.
-### v 0.0.5 - Enviorment Setup [In Progress]
+### v 0.0.5 - Enviorment Setup [DONE]
 - [x] ModSounds.java
 - [x] GeneralConfig.java
 - [x] SoundsConfig.java
 - [x] ModEvents.java
 - [x] ItemPickupMixin.java
 
-### v 0.1.0 - Basic Inventory Sounds
+### v 0.1.0 - Basic Inventory Sounds [IN PROGRESS]
 
-- [ ] Item pickup
+- [x] Item pickup
 - [ ] Item drop (Q key)
 - [ ] Inventory open / close
 - [ ] Slot click (moving items around in UI)
